@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 /**
  * Lab 11: ListMaker
- * A simple line editor that maintains a dynamic list of strings using ArrayList.
- * Uses the SafeInput library for all user input.
  *
  * Menu:
  *  A – Add an item to the list (appends to end)
@@ -101,4 +99,5 @@ public class ListMaker {
     private static void clearScreenLike() {
         System.out.print("\n\n\n\n\n");
     }
+
 }
